@@ -23,7 +23,7 @@ uvx wheelgap --fix
 
 ### Where it fits
 
-- **In CI:** the [GitHub Action](https://wheelgap.github.io/wheelgap/ci/) fails a pull request only when it adds a new gap, and comments the fix.
+- **In CI:** the [GitHub Action](https://wheelgap.github.io/wheelgap/ci/) can fail a pull request only when it makes a gap worse, and post the result as a comment.
 - **With AI coding agents:** a `check-wheels` skill and an [MCP server](https://github.com/wheelgap/wheelgap/blob/main/docs/mcp.md) for Claude Code, Cursor, Codex and others.
 - **Upstream:** we send small, tested build changes to packages that are missing wheels, so the gap closes for everyone.
 
